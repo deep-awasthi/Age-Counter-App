@@ -28,7 +28,9 @@ fun clickDatePicker(view: View?) {
     val month = myCalender.get(Calendar.MONTH);
     val day = myCalender.get(Calendar.DAY_OF_MONTH);
 
-    DatePickerDialog(this,DatePickerDialog.OnDateSetListener { view, year, month, dayOfMonth ->  }
+    DatePickerDialog(this,DatePickerDialog.OnDateSetListener { view, year, month, dayOfMonth ->
+
+    }
         , year, month, day).show()
     }
 }
