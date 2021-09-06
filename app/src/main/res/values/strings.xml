@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Age Counter</string>
+    <string name="app_name">Age-In-Minutes</string>
     <string name="textview">Calculate Your</string>
     <string name="textview2">Age</string>
     <string name="textView3">In Minutes</string>
