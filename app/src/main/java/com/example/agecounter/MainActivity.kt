@@ -39,9 +39,14 @@ fun clickDatePicker(view: View?) {
 
         textView6.setText(selectedDate)
 
-        
+        val selectedDateInMinutes = theDate!!.time / 60000
 
+        val currentDate = sdf.parse(sdf.format(System.currentTimeMillis()))
+        val currentDateInMinute = currentDate!!.time / 60000
 
+        val ans = currentDateInMinute - selectedDateInMinutes
+
+        textView7.setText(ans.toString())
     }
         , year, month, day).show()
     }
