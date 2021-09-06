@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Age Counter</string>
+    <string name="textview">Calculate Your</string>
+    <string name="textview2">Age</string>
+    <string name="textView3">In Minutes</string>
+    <string name="button1">Select Date</string>
+    <string name="textView4">Selected Date</string>
+    <string name="textView5">Age in Minutes</string>
 </resources>
